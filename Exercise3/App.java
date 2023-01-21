@@ -44,5 +44,21 @@ public class App {
         sword.rarity = "Legendary";
         sword.addDamage(1);
         System.out.println(sword.nameRarity());
+        
+        Weapon gun = new Weapon();
+
+        gun.name = "AK 47";
+        gun.damage = 1000;
+        gun.rarity = "Rare";
+        gun.addDamage(1000);
+        System.out.println(gun.nameRarity());
+
+        Weapon grenade = new Weapon();
+
+        grenade.name = "Molotov Cocktail";
+        grenade.damage = 3899;
+        grenade.rarity = "Epic";
+        grenade.addDamage(21);
+        System.out.println(grenade.nameRarity());
     }
 }
