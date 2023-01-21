@@ -13,6 +13,6 @@ public class Character {
     }
     void Attack() {
         System.out.println("I am attacking!");
-        
+        System.out.println("");
     }
 }
